@@ -1,0 +1,13 @@
+<style>
+    form {
+    background-color:powderblue;
+    text-align:center;
+
+     }
+</style>
+
+<form method='POST'>
+  {% csrf_token %}
+  <h3>Are you want to delete this movie?</h3>
+  <input type="submit">
+</form>

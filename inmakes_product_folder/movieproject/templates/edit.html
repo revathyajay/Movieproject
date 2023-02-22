@@ -1,0 +1,12 @@
+<style>
+    form {
+    background-color:powderblue;
+    text-align:left;
+
+    }
+</style>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+   <h4> {{form.as_p}}</h4>
+    <h2> <input type="submit"> </h2>
+</form>
